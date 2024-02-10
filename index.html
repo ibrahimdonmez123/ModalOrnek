@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Öğrenci CRUD Uygulaması</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <button id="openModalBtn">Yeni Öğrenci Ekle</button>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Öğrenci Ekle</h2>
+      <input type="text" id="studentName" placeholder="Öğrenci Adı">
+      <button id="addStudentBtn">Ekle</button>
+    </div>
+  </div>
+
+  <div id="studentsList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
